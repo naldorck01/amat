@@ -4,6 +4,7 @@
     "paths": {
       "@Assets": ["./assets"],
       "@Components": ["./components"],
+      "@Config": ["./config"],
       "@Containers": ["./containers"],
       "@Pages": ["./pages"],
       "@Routes": ["./routes"]

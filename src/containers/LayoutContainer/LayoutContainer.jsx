@@ -1,11 +1,15 @@
+import { ThemeProvider } from "@mui/material/styles"
 import { Layout } from "@Components/Layout"
 import { PublicRouter } from "@Routes"
+import { theme } from "@Config"
 
 const LayoutContainer = () => {
   return (
-    <Layout>
-      <PublicRouter />
-    </Layout>
+    <ThemeProvider theme={theme}>
+      <Layout>
+        <PublicRouter />
+      </Layout>
+    </ThemeProvider>
   )
 }
 
