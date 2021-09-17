@@ -4,7 +4,9 @@
     "paths": {
       "@Assets": ["./assets"],
       "@Components": ["./components"],
-      "@Pages": ["./pages"] 
+      "@Containers": ["./containers"],
+      "@Pages": ["./pages"],
+      "@Routes": ["./routes"]
     }
   }
 }
