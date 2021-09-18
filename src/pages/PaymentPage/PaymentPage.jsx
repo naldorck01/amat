@@ -97,7 +97,7 @@ function PricingContent() {
                   title={tier.title}
                   subheader={tier.subheader}
                   titleTypographyProps={{ align: "center" }}
-                  action={tier.title === "Nequi" || tier.title === "Bancolombia" ? <StarIcon /> : null}
+                  action={tier.title === "Nequi" ? <StarIcon /> : null}
                   subheaderTypographyProps={{
                     align: "center",
                   }}
