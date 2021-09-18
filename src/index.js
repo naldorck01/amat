@@ -2,6 +2,7 @@ import React from "react"
 import ReactDOM from "react-dom"
 import reportWebVitals from "./reportWebVitals"
 import { LayoutContainer } from "@Containers/LayoutContainer"
+import "@Assets/css/app.css"
 
 ReactDOM.render(
   <React.StrictMode>

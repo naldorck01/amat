@@ -3,8 +3,12 @@ import { createTheme } from "@mui/material/styles"
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#f50057",
+      main: "#D27EBC",
+      contrastText: "var(--color-white)"
     },
+    info: {
+      main: "#498585"
+    }
   },
   components: {
     MuiLink: {

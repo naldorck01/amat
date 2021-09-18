@@ -24,7 +24,7 @@ const tiers = [
     price: "0",
     description: ["Cuenta de ahorros", "0806 8935 548"],
     buttonText: "Pagar",
-    buttonVariant: "outlined",
+    buttonVariant: "contained",
     imgUrl:
       "https://unicentrodearmenia.com/wp-content/uploads/2016/06/bancolombia-300x300.jpg",
   },
@@ -33,7 +33,7 @@ const tiers = [
     price: "30",
     description: ["Número de celular", "302 230 6955"],
     buttonText: "Pagar",
-    buttonVariant: "outlined",
+    buttonVariant: "contained",
     imgUrl:
       "https://nuvei.com/wp-content/uploads/2021/02/daviplata-1-420x240.png",
   },
@@ -42,7 +42,7 @@ const tiers = [
     price: "0",
     description: ["Cuenta de ahorros", "1737 10807"],
     buttonText: "Pagar",
-    buttonVariant: "outlined",
+    buttonVariant: "contained",
     imgUrl:
       "https://www.numeroservicioalcliente.com/wp-content/uploads/2017/01/banco-de-bogota-logo.png",
   }, 
@@ -51,7 +51,7 @@ const tiers = [
     price: "0",
     description: ["Cuenta de ahorros", "1329 08377"],
     buttonText: "Pagar",
-    buttonVariant: "outlined",
+    buttonVariant: "contained",
     imgUrl:
       "https://www.bbva.com/wp-content/uploads/2019/04/Logo-BBVA-1024x576.jpg",
   },
@@ -71,7 +71,7 @@ function PricingContent() {
           component="h1"
           variant="h2"
           align="center"
-          color="text.primary"
+          color="text.info"
           gutterBottom
         >
           Metodos de pago
@@ -141,7 +141,7 @@ function PricingContent() {
                   </ul>
                 </CardContent>
                 <CardActions>
-                  <Button fullWidth variant={tier.buttonVariant}>
+                  <Button fullWidth variant={tier.buttonVariant} color="info">
                     {tier.buttonText}
                   </Button>
                 </CardActions>

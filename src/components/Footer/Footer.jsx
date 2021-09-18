@@ -5,9 +5,9 @@ import Typography from "@mui/material/Typography"
 const Footer = () => {
   const template = (
     <Box
-      sx={{ mt: "5%", pb: "3px", pt: "3px" }}
+      sx={{ mt: "8%", pb: "3px", pt: "3px" }}
       style={{
-        backgroundColor: "#E3A319",
+        backgroundColor: "#D1C792",
         justifyContent: "center",
         display: "flex",
       }}
