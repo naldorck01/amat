@@ -6,6 +6,19 @@ const theme = createTheme({
       main: "#f50057",
     },
   },
+  components: {
+    MuiLink: {
+      variants: [
+        {
+          props: { variant: "footer" },
+          style: {
+            color: "black",
+            textDecoration: "underline",
+          },
+        },
+      ],
+    },
+  },
 })
 
 export default theme
